@@ -14,15 +14,16 @@
   ],
   "homepage": "https://github.com/WhiskeySockets/Baileys",
   "repository": {
-    "url": "git@github.com:WhiskeySockets/Baileys.git"
+    "type": "git",
+    "url": "https://github.com/WhiskeySockets/Baileys.git"
   },
   "license": "MIT",
   "author": "Adhiraj Singh",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "files": [
-    "lib/*",
-    "WAProto/*",
+    "lib/",
+    "WAProto/",
     "WASignalGroup/*.js"
   ],
   "scripts": {
